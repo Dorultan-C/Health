@@ -1,4 +1,4 @@
-:root {
+/* :root {
   --color-primary:#2584ff;
   --color-secondary:#00d9ff;
   --color-accent:#ff3400;
@@ -7,16 +7,5 @@
   --color-boy-darker:#5c5577;
   --color-border: #ccc;
   --border-radius: 30px;
-}
+} */
 
-h1 {
-  color: blue;
-}
-
-button {
-  background-color: var(--color-accent);
-  border: none;
-  height: 100px;
-  width: 200px;
-  border-radius: var(--border-radius);
-}
