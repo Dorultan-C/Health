@@ -13,6 +13,36 @@
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url(../phottos/breakfast-poridge&fruits.jpg) center top;
   background-size: cover;
 }
+.home__name {
+  font-size: 5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #fff;
+}
+.home__name--last {
+  color: #ff652f;
+  font-weight: 700;
+}
+
+.menu-btn {
+  position: absolute;
+  z-index: 1;
+  right: 1rem;
+  top: 1rem;
+  height: 20px;
+  width: 28px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.menu-btn__burger {
+  position: absolute;
+  right: 0;
+  top: 0.5rem;
+  width: 28px;
+  height: 3px;
+  background: #fff;
+  transition: all 0.5s ease-in-out;
+}
 
 body {
   background: #272727;
@@ -49,6 +79,7 @@ main .social-icons {
 }
 main .social-icons a {
   padding: 0.4rem;
+  transition: all 0.5s ease-in-out;
 }
 main .social-icons a:hover {
   color: #ff652f;
